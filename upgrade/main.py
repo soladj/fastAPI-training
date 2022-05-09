@@ -2,7 +2,7 @@ from typing import Optional
 
 from fastapi import FastAPI
 
-from upgrade.serializers import Item
+from upgrade.models import Item
 
 app = FastAPI()
 
