@@ -3,7 +3,7 @@ import sqlalchemy
 
 # SQLAlchemy specific code, as with any other app
 # DATABASE_URL = "sqlite:///./test.db"
-DATABASE_URL = "mysql://development:development@localhost/test"
+DATABASE_URL = "mysql://root:development@0.0.0.0:6603/test"
 # DATABASE_URL = "postgresql://user:password@postgresserver/db"
 
 database = databases.Database(DATABASE_URL)
